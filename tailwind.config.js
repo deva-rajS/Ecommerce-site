@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["docs/index.html"],
+  content: ["index.html"],
   theme: {
     extend: {
       display: ["group-hover"],
