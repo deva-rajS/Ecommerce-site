@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Allizzwellshoppe</title>
+    <link rel="stylesheet" href="output.css" />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body class="">
+    <div class="overflow-x-hidden relative">
+      <div
+        class="bg-black h-10 text-white flex relative w-[100%] flex-wrap px-10 xl:pl-20"
+      >
+        <div class="hidden lg:block h-5 inset-y-3 text-xs w-96 absolute">
+          <p class="">ADD ANYTHING HERE OR JUST REMOVE IT</p>
+        </div>
+        <div
+          class="flex w-screen lg:w-40 items-center justify-center relative lg:absolute lg:inset-y-3 lg:right-72 xl:right-80"
+        >
+          <ul class="flex absolute">
+            <li class=""><i class="fa-brands fa-facebook-f"></i></li>
+            <li class="px-3"><i class="fa-brands fa-twitter"></i></li>
+            <li class=""><i class="fa-brands fa-pinterest"></i></li>
+            <li class="px-3"><i class="fa-brands fa-linkedin-in"></i></li>
+            <li class=""><i class="fa-brands fa-telegram"></i></li>
+          </ul>
+        </div>
+        <div
+          class="hidden lg:block h-5 inset-y-3 text-xs right-10 xl:right-20 w-56 absolute"
+        >
+          <ul class="flex">
+            <li class=""><i class="fa-regular fa-envelope"></i> NEWSLETTER</li>
+            <li class="px-3">CONTACT US</li>
+            <li>FAQS</li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="h-16 items-center w-[100%] relative flex flex-wrap px-5 lg:px-10 lg:h-24 xl:pl-20"
+      >
+        <div class="flex lg:hidden btnmenu">
+          <i class="text-lg fa-solid fa-bars"></i>
+          <p class="pt-px font-semibold cursor-default">&nbsp;MENU</p>
+        </div>
+        <div
+          class="flex justify-center w-[96%] items-center absolute pr-7 lg:justify-start lg:w-96"
+        >
+          <img
+            src="./img/wide/logo.png"
+            alt="logo"
+            class="object-contain h-16 w-28 lg:h-20 lg:w-36 absolute"
+          />
+        </div>
+        <div
+          class="hidden items-center w-[58%] left-40 h-10 border-x-gray-300 border-2 lg:flex relative"
+        >
+          <div class="px-3 w-auto">
+            <input
+              type="text"
+              class="outline-none"
+              placeholder="Search for Products"
+            />
+          </div>
+          <div
+            class="border-x-gray-300 h-10 pt-2.5 border-x-2 px-3 text-sm absolute right-10"
+          ><select name="category" id="category">
+            <option value="0">SELECT CATEGORY</option>
+            <option value="1" >WATCHES</option>
+            <option value="2">SHOES</option></option>
+            <option value="3">SLIDES</option></select
+          ></div>
+          <div class="px-3 right-0 absolute">
+            <i class="fa-regular fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <div class="hidden lg:block absolute text-sm right-36 xl:right-48">
+          LOGIN / REGISTER
+        </div>
+        <div class="hidden lg:block absolute right-16 xl:right-28 text-lg">
+          <ul class="flex">
+            <li class="pr-3"><i class="fa-regular fa-heart"></i></li>
+            <li class="pr-1"><i class="fa-solid fa-shuffle"></i></li>
+          </ul>
+        </div>
+        <div class="text-lg lg:right-10 right-5 xl:right-20 absolute">
+          <i class="fa-light fa-bag-shopping bagcart"></i>
+        </div>
+      </div>
+      <div
+        class="hidden w-[100vw] lg:flex bg-black h-10 text-white relative flex-wrap px-10 xl:px-20 items-center justify-center"
+      >
+        <ul class="flex h-10 cursor-default">
+          <li class="pr-3 pt-2.5">HOME</li>
+          <li class="border-x border-slate-300 px-3 pt-2.5">ABOUT</li>
+          <li class="px-3 pt-2.5">SHOE</li>
+          <li class="border-x border-slate-300 px-3 pt-2.5">WATCHES</li>
+          <li class="pl-3 pt-2.5">SLIDES</li>
+        </ul>
+      </div>
+      <div class="w-full flex flex-wrap relative slider">
+        <img
+          src="./img/wide/01.jpg"
+          alt="img"
+          class="xl:w-[100%] slide duration-500"
+        />
+
+        <img
+          src="./img/wide/02.jpg"
+          alt="logo"
+          class="xl:w-[100%] slide h-full absolute duration-500"
+        />
+
+        <div
+          class="dots flex w-full bottom-0 justify-center absolute gap-1 pb-4"
+        >
+          <!-- <span
+            class="rounded-full dots__dot h-3 w-3 border-2 border-white"
+            data-slide="1"
+          ></span> -->
+        </div>
+        <div
+          class="flex w-full h-full items-center justify-between absolute px-5 lg:px-10 xl:px-20"
+        >
+          <span class="btn-left">
+            <i
+              class="fa-solid fa-chevron-left text-white text-opacity-60 text-2xl"
+            ></i>
+          </span>
+          <span class="btn-right">
+            <i
+              class="fa-solid fa-chevron-right text-white text-opacity-60 text-2xl"
+            ></i>
+          </span>
+        </div>
+      </div>
+      <div class="grid justify-center">
+        <div class="pb-10 pt-20">
+          <h2 class="font-semibold text-center">FEATURED CATEGORIES</h2>
+          <p class="text-center text-sm text-gray-500">
+            It is a powerful eCommerce Website
+          </p>
+        </div>
+        <div class="">
+          <ul class="flex flex-wrap justify-center pb-8 lg:gap-x-8 gap-3">
+            <li class="relative">
+              <img
+                src="./img/slidess/IMG-20210724-WA0015-600x600.jpg"
+                alt="slides"
+                class="md:h-80 md:w-80 h-[300px] w-[300px]"
+              />
+              <p class="font-semibold text-center pt-3">SLIDES</p>
+            </li>
+            <li class="relative">
+              <img
+                src="./img/shoes/IMG-20220205-WA0009-600x600.jpg"
+                alt="snekers"
+                class="md:h-80 md:w-80 h-[300px] w-[300px]"
+              />
+              <p class="font-semibold text-center pt-3">SNEAKERS</p>
+            </li>
+            <li class="relative">
+              <img
+                src="./img/watchs/watch-8.jpeg"
+                alt="watchs"
+                class="md:h-80 md:w-80 h-[300px] w-[300px]"
+              />
+              <p class="font-semibold text-center w-full pt-3 absolute">
+                WATCHES
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="pt-20 grid justify-center">
+        <div class="showcase flex justify-center pb-10">
+          <h2
+            class="subhead cursor-pointer font-semibold underline underline-offset-8"
+          >
+            WATCH
+          </h2>
+          <h2
+            class="subhead cursor-pointer font-semibold underline px-6 text-gray-500 underline-offset-8"
+          >
+            SHOES
+          </h2>
+          <h2
+            class="subhead cursor-pointer font-semibold text-gray-500 underline underline-offset-8"
+          >
+            SLIDES
+          </h2>
+        </div>
+        <div
+          class="cartsgrid px-5 lg:px-10 xl:px-20 grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-4"
+        ></div>
+      <div
+        class="px-5 lg:grid-cols-4 sm:grid sm:grid-cols-2 sm:gap-8 lg:px-10 xl:px-20 pt-20 text-sm lg:pb-10"
+      >
+        <div class="grid text-gray-500 pb-8 sm:pb-0">
+          <p class="pb-6">
+            Allizzwell shoppe is the best site for online shopping in India when
+            it comes to online clothes shopping for men and women at low rates.
+          </p>
+          <p><i class="fa-regular fa-paper-plane"></i> Karol bagh, Delhi</p>
+          <p class="py-2.5">
+            <i class="fa-regular fa-mobile"></i> Phone: 123456789
+          </p>
+          <p>
+            <i class="fa-regular fa-envelope"></i> Gamail: allizzewell@gamil.com
+          </p>
+        </div>
+        <div class="text-gray-500 pb-8 sm:pb-0">
+          <h2 class="text-black font-semibold">QUICK LINKS</h2>
+          <p class="py-2.5">Contact Us</p>
+          <p>Latest News</p>
+        </div>
+        <div class="text-gray-500 pb-8">
+          <h2 class="text-black font-semibold">USEFUL LINKS</h2>
+          <p class="py-2.5">Privacy Policy</p>
+          <p class="pb-2.5">Returns</p>
+          <p>Terms & Conditions</p>
+        </div>
+        <div class="text-gray-500 pb-8">
+          <h2 class="text-black font-semibold pb-2.5">SEARCH PRODUCTS</h2>
+          <div class="border-x-gray-300 border-2 w-auto flex relative py-2">
+            <input
+              type="text"
+              placeholder="Search for products"
+              class="pl-2 outline-none"
+            />
+            <div class="right-2 absolute">
+              <i class="fa-regular fa-magnifying-glass"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="font-semibold h-screen fixed w-[80%] sm:w-[40%] right-0 top-0 z-10 bg-white cartbar translate-x-full duration-500"
+      >
+        <div class="flex justify-between py-5 border-b-2 mx-5">
+          <h2 class="animate-flash">SHOPPING CART</h2>
+          <h2 class="closebtn cursor-default">
+            CLOSE &nbsp;<span><i class="fa-solid fa-xmark"></i></span>
+          </h2>
+        </div>
+        <div class="overflow-y-scroll max-h-[72%]">
+          <div class="shopcart"></div>
+        </div>
+        <div
+          class="flex w-[90%] justify-between bg-white py-5 border-t-2 mx-5 bottom-14 absolute"
+        >
+          <h2>SUBTOTAL :</h2>
+          <h2 class="subtotal">₹0</h2>
+        </div>
+        <div
+          class="bg-[#6bb327] text-center text-white py-2 w-[90%] mx-5 bottom-5 absolute"
+        >
+          <h2>CHECKOUT</h2>
+        </div>
+      </div>
+      <div
+        class="flex text-sm justify-center pt-4 pb-8 border-t-2 border-gray-200"
+      >
+        <p>&copy;2019 CREATED BY</p>
+        <p class="text-red-600">X</p>
+        <p>Allizzwellshoppe.</p>
+      </div>
+      <div
+        class="font-semibold h-screen fixed w-[80%] sm:w-[40%] left-0 top-0 z-10 bg-white translate-x-[-100%] duration-500 menubar"
+      >
+        <div class="flex text-sm w-full h-auto py-2 gap-x-5 border-b-2 close">
+          <h2 class="ml-5">HOME</h2>
+        </div>
+        <div class="flex text-sm w-full h-auto py-2 gap-x-5 border-b-2 close">
+          <h2 class="ml-5">WATCHES</h2>
+        </div>
+        <div class="flex text-sm w-full h-auto py-2 gap-x-5 border-b-2 close">
+          <h2 class="ml-5">SHOES</h2>
+        </div>
+        <div class="flex text-sm w-full h-auto py-2 gap-x-5 border-b-2 close">
+          <h2 class="ml-5">SLIDES</h2>
+        </div>
+        <div class="flex text-sm w-full h-auto py-2 gap-x-5 border-b-2 close">
+          <h2 class="ml-5">ABOUT</h2>
+        </div>
+        <div class="flex text-sm w-full h-auto py-2 gap-x-5 border-b-2 close">
+          <h2 class="ml-5">
+            <i class="fa-regular fa-heart"></i>&nbsp;WHISHLIST
+          </h2>
+        </div>
+        <div class="flex text-sm w-full h-auto py-2 gap-x-5 border-b-2 close">
+          <h2 class="ml-5"><i class="fa-solid fa-shuffle"></i>&nbsp;COMPARE</h2>
+        </div>
+        <div class="flex text-sm w-full h-auto py-2 gap-x-5 border-b-2 close">
+          <h2 class="ml-5">
+            <i class="fa-regular fa-user"></i>&nbsp;LOGIN / REGISTER
+          </h2>
+        </div>
+      </div>
+      <div
+        class="overlay bg-black bg-opacity-50 top-0 absolute w-full h-full hidden"
+      ></div>
+    </div>
+  </body>
+</html>
