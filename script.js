@@ -5,7 +5,6 @@ const dotContainer = document.querySelector(".dots");
 const showcase = document.querySelector(".showcase");
 const subhead = document.querySelectorAll(".subhead");
 const cartsgrid = document.querySelector(".cartsgrid");
-
 const shopCart = document.querySelector(".shopcart");
 const subTotal = document.querySelector(".subtotal");
 const delItem = document.querySelectorAll(".delitem");
@@ -196,7 +195,7 @@ const renderCart = function (data) {
   const html = `<div
   class="group font-semibold text-center pb-3 hover:z-10 relative hover:shadow-2xl hover:shadow-black transition ease-in-out hover:-translate-y-2"
 >
-  <img src="${data.image}" alt="img" class="item-image" />
+  <img src=".${data.image}" alt="img" class="item-image" />
   <h2 class="pt-3 text-xs sm:text-base item-name">${data.title}</h2>
   <h2 class="item-price">${data.price}</h2>
   <div
